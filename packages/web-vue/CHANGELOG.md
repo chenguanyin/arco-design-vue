@@ -2,6 +2,70 @@
 changelog: true
 ```
 
+## 2.56.2
+
+`2024-09-13`
+
+### 🆕 Feature
+
+- Added Russian ([#3290](https://github.com/arco-design/arco-design-vue/pull/3290))
+
+### 🐛 BugFix
+
+- **select:** fix(switch): loading state can't be controlled with truthy initial state ([#3285](https://github.com/arco-design/arco-design-vue/pull/3285))
+- **calendar:** fix  modes not taking effect ([#3281](https://github.com/arco-design/arco-design-vue/pull/3281))
+- **radio:** fix not inheriting the injected size ([#3267](https://github.com/arco-design/arco-design-vue/pull/3267))
+
+### 🆎 TypeScript
+
+- **card:** update the types of headerStyle and bodyStyle ([#3268](https://github.com/arco-design/arco-design-vue/pull/3268))
+
+
+## 2.56.1
+
+`2024-08-22`
+
+### 🆕 Feature
+
+- **select:** add `tagNowrap` prop ([#3270](https://github.com/arco-design/arco-design-vue/pull/3270))
+
+
+## 2.56.0
+
+`2024-07-26`
+
+### 🆕 Feature
+
+- **input-number:** Added 'keydown' event to disable default behavior ([#3248](https://github.com/arco-design/arco-design-vue/pull/3248))
+
+### 🐛 BugFix
+
+- **tree:** fix tree node folding animation ([#3234](https://github.com/arco-design/arco-design-vue/pull/3234))
+- **color-picker:** fix shaking issue when selecting color with v-model ([#3180](https://github.com/arco-design/arco-design-vue/pull/3180))
+- **time-picker:** TriggerProps property not correctly passed through ([#3178](https://github.com/arco-design/arco-design-vue/pull/3178))
+
+### 💎 Enhancement
+
+- **menu:** fix color transition effect in selected menu item ([#3192](https://github.com/arco-design/arco-design-vue/pull/3192))
+
+
+## 2.55.3
+
+`2024-06-07`
+
+### 🆕 Feature
+
+- **table:** colum added the minWidth attribute ([#3157](https://github.com/arco-design/arco-design-vue/pull/3157))
+
+### 🐛 BugFix
+
+- **time-picker:** Fix issue with read-only mode still being editable ([#3173](https://github.com/arco-design/arco-design-vue/pull/3173))
+- **time-picker:** Added `placeholder` type definition ([#3173](https://github.com/arco-design/arco-design-vue/pull/3173))
+- **input:** fix display of allow-clear input button in read-only state ([#3172](https://github.com/arco-design/arco-design-vue/pull/3172))
+- **table:** fix table sticky-header failure with scrollbar ([#3170](https://github.com/arco-design/arco-design-vue/pull/3170))
+- **table:** Restore default style when table dynamically switches row-selection ([#3155](https://github.com/arco-design/arco-design-vue/pull/3155))
+
+
 ## 2.55.2
 
 `2024-05-10`
